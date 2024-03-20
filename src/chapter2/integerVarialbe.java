@@ -16,6 +16,8 @@ public class integerVarialbe {
 		
 		// long 데이터를 저장할 경우에는 숫자데이터 끝부분에 알파벳 L or l을 기입힌다.
 		long lVal = 12345678900L;
+		
+		System.out.println(lVal);
 
 	}
 

@@ -1,5 +1,7 @@
 package chapter2;
 
+
+//TypeInference.class 파일에는 var i =10 -> int i =10저장
 public class TypeInference {
 
 	public static void main(String[] args) {
