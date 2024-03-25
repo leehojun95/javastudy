@@ -1,4 +1,4 @@
-package chapter6thisex;
+package chapter6.thisex;
 
 // this 키워드
 class BirthDay{

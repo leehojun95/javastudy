@@ -1,4 +1,4 @@
-package chapter6thisex;
+package chapter6.thisex;
 
 // 다른 생성자를 호출하는 예제
 
