@@ -27,7 +27,7 @@ public class Child extends Parent {
 	}
 
 
-	// 컴파일러는 부모클래스의 메서드를 재정의하는 의미로 아래콬드를 해석
+	// 컴파일러는 부모클래스의 메서드를 재정의하는 의미로 아래코드를 해석
 	@Override // Annotation. 메서드재정의
 	void methodA() {
 		// TODO Auto-generated method stub
