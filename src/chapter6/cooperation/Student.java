@@ -8,7 +8,7 @@ public class Student {
 	public int money;
 	
 	//매개변수가 있는 생성자.
-	public Student(String studentName, int money) {
+	public Student(int money, String studentName) {
 		this.studentName = studentName;
 		this.money = money;
 	}

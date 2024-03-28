@@ -4,8 +4,8 @@ public class TakeTrans {
 
 	public static void main(String[] args) {
 		// 2명의 학생객체를 생성
-		Student stuJames = new Student("James", 5000);
-		Student stuTomas = new Student("Tomas", 10000);
+		Student stuJames = new Student(5000, "James");
+		Student stuTomas = new Student(10000, "Tomas");
 		
 		Bus bus = new Bus(100); // Bus 차량번호 100번
 		stuJames.takeBus(bus);
