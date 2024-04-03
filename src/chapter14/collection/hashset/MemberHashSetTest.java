@@ -7,7 +7,7 @@ public class MemberHashSetTest {
 	private static MemberHashSet memberHashSet;
 
 	public static void main(String[] args) {
-		MemberHashSet memberLinkedList = new MemberHashSet();
+		MemberHashSet MemberHashSet = new MemberHashSet();
 		
 		//객체생성
 		Member2 memberSon = new Member2(1001, "손흥민");
@@ -15,18 +15,18 @@ public class MemberHashSetTest {
 		Member2 memberLee = new Member2(1003, "이강인");
 		Member2 memberHwa = new Member2(1004, "황희찬");
 		
-		memberLinkedList.addMember(memberSon);
-		memberLinkedList.addMember(memberKim);
-		memberLinkedList.addMember(memberLee);
-		memberLinkedList.addMember(memberHwa);
+		MemberHashSet.addMember(memberSon);
+		MemberHashSet.addMember(memberKim);
+		MemberHashSet.addMember(memberLee);
+		MemberHashSet.addMember(memberHwa);
 		
-		memberLinkedList.showAllMember(); //4개 member객체가 출력
+		MemberHashSet.showAllMember(); //4개 member객체가 출력
 		
 		Member2 memberLee2 = new Member2(1003, "이강인");
 		
 		memberHashSet.addMember(memberLee2);
 		
-		memberLinkedList.showAllMember(); //5개 member객체가 출력
+		MemberHashSet.showAllMember(); //5개 member객체가 출력
 
 	}
 
