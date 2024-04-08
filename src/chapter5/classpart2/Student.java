@@ -1,6 +1,6 @@
 package chapter5.classpart2;
 
-// Student 클래스에 main() aptjem tkdydgkrl.
+// Student 클래스에 main() 메서드 사용하기
 public class Student {
 	
 	//학생정보
@@ -17,7 +17,7 @@ public class Student {
 	}
 	
 	
-	//Stuedent클래스의 맴버가 아니다.
+	//Student클래스의 맴버가 아니다.
 	//일반적으로 main()메서드를 파일을 별도로 하여, 사용할수있지만
 	public static void main(String[] args) {
 		Student stu1 = new Student();

@@ -15,12 +15,17 @@ public class CarExample {
 		 System.out.println("myCar.color의 값은?" + myCar.color); //null
 		 System.out.println("myCar.isAircon의 값은?" + myCar.isAircon); //false
 		 
+		 
+		 
+		 
+		 //생성자 메서드를 사용한 예제 ctrl + 클릭으로 확인
 		 Car yourCar = new Car("현대자동차");
 		 System.out.println("youtCar.company의 값은? " + yourCar.company);
 		 
 		 Car childCar = new Car("현대자동차", "노란색");
 		 System.out.println("childCar.company의 값은? " + childCar.company);
 		 System.out.println("childCar.color의 값은? " + childCar.color);
+		 
 
 	}
 
