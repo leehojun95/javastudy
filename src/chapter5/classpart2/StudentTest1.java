@@ -37,8 +37,8 @@ public class StudentTest1 {
 		//chapter5.classpart2.Student@75a1cd57 : 페키지명, 클래스명@주소값
 		// 주소값을 해시코드(hash code)값이라고도 한다.
 		
-		System.out.println(stu1); //chapter5.classpart2.Student@75a1cd57
-		System.out.println(stu2); //chapter5.classpart2.Student@515f550a
+		System.out.println(stu1); //chapter5.classpart2.Student@75a1cd57 // stu1.studentName 이면 손흥민
+		System.out.println(stu2); //chapter5.classpart2.Student@515f550a // stu2.studentName 이면 이강인
 
 	}
 

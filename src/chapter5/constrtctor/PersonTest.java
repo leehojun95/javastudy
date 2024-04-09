@@ -11,7 +11,7 @@ public class PersonTest {
 		
 		//힙영역에 생성된 Person클래스의 필드값을 확인
 		System.out.println(p1.name); //null
-		System.out.println(p1.height); //0.0
+		System.out.println(p1.height); //50.0
 		System.out.println(p1.weight); //0.0
 		
 		Person p2 = new Person (50.0f);

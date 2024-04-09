@@ -12,6 +12,6 @@ package chapter5.hiding;
 public class MyDate {
 	public int day;
 	int month;
-	private int uear;
+	private int year;
 
 }
